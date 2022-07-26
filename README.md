@@ -25,15 +25,21 @@ There are also some special rules about what happens when a medical certificate 
   - For pilots 40 or over:
       - A 1st class license drops to 2rd Class for 6 months after 6 months
       - A 2nd class license drops to 3rd Class for 12 months after 12 months
-  - A 3rd class license that expires cannot be used to fly
+  - A 3rd class license that expires cannot be used to fly 
+  
+All of the FAA validities are measured from the last day of the month.
 
-![image](src/test/resources/features/medicals/medicals.png)
+![image](medicals.png)
 
 ## The Exercise
 
 The aim of this exercise is two-fold:
  - Create an Example Map identifying the key rules, examples and counter-examples in this domain.
  - Define BDD scenarios for these rules and examples
+
+One simple approach is to specify these requirements in two feature files: 
+ - `date_of_next_medical.feature`, which will contain the business rules and calculations related to figuring out when a given pilot is due for a medical examination.
+ - `certificate_expiry.feature`, which will contain the business rules related to what happens when a medical certificate expires, depending on the age of the pilot and the type of license.
 
 ## Getting feedback on your solution
 The sample solutions provided in this repository are one possible solution, but there are others. 

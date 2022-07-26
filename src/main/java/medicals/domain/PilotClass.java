@@ -3,7 +3,8 @@ package medicals.domain;
 public enum PilotClass {
     FIRST_CLASS("1st class"),
     SECOND_CLASS("2nd class"),
-    THIRD_CLASS("3rd class");
+    THIRD_CLASS("3rd class"),
+    EXPIRED("Expired");
 
     private final String label;
 

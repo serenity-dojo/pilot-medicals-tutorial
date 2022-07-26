@@ -43,44 +43,44 @@ Feature: FAA pilot medical exams
 
 
 
-#  Rule: Second class pilots need a medical every 12 months regardless of age
-#  For commercial pilots and ATC operators
-#    Scenario Outline: Second class medical dates
-#      Given Serena is a 2nd class pilot
-#      And Serena is <age> years old
-#      When Serena's last medical was <last medical>
-#      Then her next medical should be <next medical>
-#      Examples:
-#        | age | last medical | next medical | rule        |
-#        | 35  | 8 months ago | in 4 months  | Under 40    |
-#        | 45  | 2 months ago | in 10 months  | 40 or older |
-#
-#  Rule: Third class pilots need a medical every 5 years if under 40, and every 2 years if they are 40 or older
-#  For private, recreational, student and sports pilots, and for flight instructors
-#    Scenario Outline: Third class medical dates
-#      Given Theo is a 3rd class pilot
-#      And Theo is <age> years old
-#      When Theo's last medical was <last medical>
-#      Then his next medical should be <next medical>
-#      Examples:
-#        | age | last medical | next medical | rule        |
-#        | 35  | 8 months ago | in 4 months  | Under 40    |
-#        | 45  | 2 months ago | in 10 months  | 40 or older |
-#
-#
-#  Rule: If the medical date is not respected the pilot loses their First Class status
-#
-#    Scenario Outline: A pilot loses first class status when they miss their medical
-#      The date of the next medical is based on the requirements of the pilot's new class
-#
-#      Given Frank is a 1st class pilot
-#      And Frank is <age> years old
-#      When Frank's last medical was <last medical>
-#      Then he should now be a <new class> pilot
-#      And his next medical should be <next medical>
-#
-#      Examples:
-#        | age | last medical  | new class | next medical |
-#        | 35  | 18 months ago | 3rd class | in 42 months |
-#        | 40  | 7 months ago  | 2nd class | in 5 months  |
-#        | 45  | 9 months ago  | 2nd class | in 9 months  |
+  Rule: Second class pilots need a medical every 12 months regardless of age
+  For commercial pilots and ATC operators
+    Scenario Outline: Second class medical dates
+      Given Serena is a 2nd class pilot
+      And Serena is <age> years old
+      When Serena's last medical was <last medical>
+      Then her next medical should be <next medical>
+      Examples:
+        | age | last medical | next medical | rule        |
+        | 35  | 8 months ago | in 4 months  | Under 40    |
+        | 45  | 2 months ago | in 10 months  | 40 or older |
+
+  Rule: Third class pilots need a medical every 5 years if under 40, and every 2 years if they are 40 or older
+  For private, recreational, student and sports pilots, and for flight instructors
+    Scenario Outline: Third class medical dates
+      Given Theo is a 3rd class pilot
+      And Theo is <age> years old
+      When Theo's last medical was <last medical>
+      Then his next medical should be <next medical>
+      Examples:
+        | age | last medical | next medical | rule        |
+        | 35  | 8 months ago | in 4 months  | Under 40    |
+        | 45  | 2 months ago | in 10 months  | 40 or older |
+
+
+  Rule: If the medical date is not respected the pilot loses their First Class status
+
+    Scenario Outline: A pilot loses first class status when they miss their medical
+      The date of the next medical is based on the requirements of the pilot's new class
+
+      Given Frank is a 1st class pilot
+      And Frank is <age> years old
+      When Frank's last medical was <last medical>
+      Then he should now be a <new class> pilot
+      And his next medical should be <next medical>
+
+      Examples:
+        | age | last medical  | new class | next medical |
+        | 35  | 18 months ago | 3rd class | in 42 months |
+        | 40  | 7 months ago  | 2nd class | in 5 months  |
+        | 45  | 9 months ago  | 2nd class | in 9 months  |

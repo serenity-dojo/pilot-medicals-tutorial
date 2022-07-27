@@ -51,6 +51,7 @@ public class MedicalsStepDefinitions {
         medicalsService.checkLicenseValidity(pilot, today);
     }
 
+    @Then("his/her license should now be {pilotClass}")
     @Then("he/she should now be a {pilotClass} pilot")
     public void heShouldNowBeANewClassPilot(PilotClass newClass) {
         assertThat(pilot.getPilotClass()).isEqualTo(newClass);

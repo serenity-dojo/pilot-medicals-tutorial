@@ -1,5 +1,5 @@
 @Air
-Feature: Certificate expiry
+feature: Aviation Medicals Certificate expiry
   In order to encourage pilots to renew their medical examinations on time in a fair manner
   As an airline regulator
   I want to pilots to be downgraded to the next lowest status if they don't renew their medicals

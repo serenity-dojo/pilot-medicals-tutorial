@@ -1,5 +1,5 @@
 @Air
-Feature: Date of next official medical
+feature: Aviation Medicals Date of next official medical
   In order to stay compliant with air regulations and continue to fly legally
   As a pilot
   I want to know when my next medical is due

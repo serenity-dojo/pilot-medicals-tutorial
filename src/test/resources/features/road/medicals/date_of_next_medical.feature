@@ -1,5 +1,5 @@
 @Road
-Feature: Date of next medical
+feature: Road Medicals Date of next medical
   In order to stay compliant with air regulations and continue to fly legally
   As a pilot
   I want to know when my next medical is due
@@ -27,103 +27,5 @@ Feature: Date of next medical
       Examples: Road Travel Third class pilots
       Third class pilots need a medical every 5 years if under 40, and every 2 years if they are 40 or older
         | Class     | Birth Date      | Last Medical    | Next Medical    | Comments         |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
-        | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
-        | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |
         | 3rd class | January 15 2000 | January 20 2020 | January 31 2025 | Theo is under 40 |
         | 3rd class | January 01 1970 | January 20 2020 | January 31 2022 | Theo is over 40  |

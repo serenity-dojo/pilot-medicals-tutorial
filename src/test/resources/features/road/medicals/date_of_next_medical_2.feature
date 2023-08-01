@@ -1,5 +1,5 @@
 @Road
-feature: Road Medicals Date of next medical 2
+Feature: Road Medicals Date of next medical 2
   In order to stay compliant with air regulations and continue to fly legally
   As a pilot
   I want to know when my next medical is due

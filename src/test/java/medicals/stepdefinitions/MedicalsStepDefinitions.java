@@ -29,6 +29,12 @@ public class MedicalsStepDefinitions {
     @Given("{} is a {pilotClass} pilot born on {readableDate}")
     public void pilot_a_1st_class_pilot(String pilotName, PilotClass pilotClass, LocalDate dateOfBirth) {
         pilot = Pilot.builder().pilotName(pilotName).pilotClass(pilotClass).birthDate(dateOfBirth).build();
+        // Pause a random time between 0 and 1 second
+        try {
+            Thread.sleep((long) (Math.random() * 1000));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Given("{} is {int} years old")

@@ -26,8 +26,8 @@ targetCompatibility = 11
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '4.0.0-beta-3'
-    serenityCucumberVersion = '4.0.0-beta-3'
+    serenityCoreVersion = '4.0.6-SNAPSHOT'
+    serenityCucumberVersion = '4.0.6-SNAPSHOT'
     junitVersion = '4.13.1'
     assertJVersion = '3.8.0'
     logbackVersion = '1.2.10'
@@ -42,9 +42,9 @@ dependencies {
             "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
             "junit:junit:${junitVersion}",
-            "org.junit.platform:junit-platform-launcher:1.8.2",
-            "org.junit.jupiter:junit-jupiter-engine:5.8.2",
-            "org.junit.vintage:junit-vintage-engine:5.8.2",
+            "org.junit.platform:junit-platform-launcher:1.10.0",
+            "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+            "org.junit.vintage:junit-vintage-engine:5.10.0",
             "org.assertj:assertj-core:${assertJVersion}"
 }
 
@@ -57,7 +57,7 @@ serenity {
     // Specify the root package of any JUnit acceptance tests to appear in the Serenity report
     testRoot = "starter"
     // Specify the root directory of any Cucumber feature files
-    requirementsDir = "src/test/resources/features"
+//    requirementsDir = "src/test/resources/features"
 
 }
 
